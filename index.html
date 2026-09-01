@@ -38,9 +38,16 @@
   <section class="relative h-[200vh] w-full" id="hero-wrapper">
     <div class="sticky top-0 flex h-screen w-full flex-col justify-between overflow-hidden px-5 pt-24 pb-12 md:px-10 lg:px-16" id="hero-sticky">
       
-      <div class="flex items-center justify-center border-t border-zinc-900 pt-4">
-        <span class="font-sans text-xs uppercase tracking-[0.25em] text-zinc-950">MARIA RĂDNEANȚU - PORTFOLIO</span>
-      </div>
+      <!-- NOU: Meniul de navigație -->
+      <nav class="flex flex-col md:flex-row items-center justify-between border-t border-zinc-900 pt-4 gap-4 md:gap-0 relative z-50">
+        <a href="#" class="font-sans text-xs uppercase tracking-[0.25em] text-zinc-950 hover:text-accent-editorial transition-colors">MARIA RĂDNEANȚU</a>
+        <div class="flex flex-wrap justify-center gap-6 md:gap-8">
+          <a href="#mindset" class="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-zinc-500 hover:text-accent-editorial transition-colors">Mindset</a>
+          <a href="#journey" class="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-zinc-500 hover:text-accent-editorial transition-colors">Journey</a>
+          <a href="#work" class="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-zinc-500 hover:text-accent-editorial transition-colors">Work</a>
+          <a href="#contact" class="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-zinc-500 hover:text-accent-editorial transition-colors">Contact</a>
+        </div>
+      </nav>
 
       <div class="mt-10 flex flex-grow flex-col justify-center">
         <div class="line-mask" data-hero>
@@ -91,7 +98,8 @@
     </div>
   </section>
 
-  <section class="border-t border-zinc-900 px-5 py-20 md:px-10 md:py-32 lg:px-16">
+  <!-- NOU: Adăugat id="mindset" -->
+  <section class="border-t border-zinc-900 px-5 py-20 md:px-10 md:py-32 lg:px-16" id="mindset">
     <div class="reveal">
       <div class="mb-16 max-w-3xl">
         <span class="font-sans text-xs uppercase tracking-[0.25em] text-zinc-500">The Mindset</span>
@@ -144,7 +152,8 @@
     </div>
   </section>
 
-  <section class="border-t border-zinc-900 px-5 py-20 md:px-10 md:py-32 lg:px-16">
+  <!-- NOU: Adăugat id="journey" -->
+  <section class="border-t border-zinc-900 px-5 py-20 md:px-10 md:py-32 lg:px-16" id="journey">
     <div class="reveal">
       <div class="mb-20 flex items-end justify-between border-b border-zinc-900 pb-6">
         <h2 class="font-serif text-5xl leading-[0.9] tracking-[-0.02em] text-zinc-950 md:text-8xl">The Journey</h2>
@@ -257,7 +266,8 @@
     </div>
   </section>
 
-  <section class="border-t border-zinc-900 px-5 pt-20 pb-0 md:px-10 md:pt-32 lg:px-16">
+  <!-- NOU: Adăugat id="work" -->
+  <section class="border-t border-zinc-900 px-5 pt-20 pb-0 md:px-10 md:pt-32 lg:px-16" id="work">
     <div class="reveal">
       <div class="mb-8 flex items-end justify-between border-b border-zinc-900 pb-6">
         <h2 class="font-serif text-5xl leading-[0.9] tracking-[-0.02em] text-zinc-950 md:text-8xl">Selected<br /><span class="italic">Work</span></h2>
@@ -332,7 +342,8 @@
     </div>
   </section>
 
-  <footer class="px-5 pb-12 pt-20 md:px-10 lg:px-16">
+  <!-- NOU: Adăugat id="contact" -->
+  <footer class="px-5 pb-12 pt-20 md:px-10 lg:px-16" id="contact">
     <div class="reveal">
       <p class="font-sans text-xs uppercase tracking-[0.25em] text-zinc-500">Let&apos;s find the next puzzle</p>
       
